@@ -1,0 +1,1 @@
+package com.aazamnawlakha.eac_android.interfaces;import com.aazamnawlakha.eac_android.fragment.dummy.DummyContent;/** * Created by anjanik on 25/4/16. */public interface OnListFragmentInteractionListener {    void onListFragmentInteraction(DummyContent.DummyItem item);}
