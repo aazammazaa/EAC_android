@@ -5,10 +5,7 @@
     android:paddingTop="@dimen/dimen_10_dp"
     android:paddingBottom="@dimen/dimen_10_dp"
     >
-    <include
-        layout="@layout/app_bar_main"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+
 
 <LinearLayout
     android:layout_width="match_parent"
@@ -28,12 +25,14 @@
         android:id="@+id/textView4" />
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:inputType="textPersonName"
         android:text="@string/employee_name"
         android:ems="10"
+        android:background="@android:color/transparent"
         android:textColor="@color/text_color"
         android:textSize="@dimen/dimen_18_sp"
+        android:paddingLeft="5dp"
         android:layout_gravity="center"
         android:id="@+id/employee_name_editText" />
 
@@ -47,16 +46,18 @@
 
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:inputType="textPersonName"
         android:text="@string/subject"
         android:ems="10"
+        android:background="@android:color/transparent"
         android:lines="1"
         android:textColor="@color/text_color"
         android:paddingLeft="@dimen/dimen_10_dp"
         android:paddingRight="@dimen/dimen_10_dp"
         android:layout_marginTop="@dimen/dimen_5_dp"
         android:layout_marginBottom="@dimen/dimen_5_dp"
+        android:paddingBottom="20dp"
         android:textSize="@dimen/dimen_18_sp"
         android:id="@+id/subject_editText" />
     <View
@@ -72,11 +73,13 @@
         android:paddingLeft="@dimen/dimen_10_dp"
         android:paddingRight="@dimen/dimen_10_dp"
         android:ems="10"
+        android:background="@android:color/transparent"
         android:gravity="top"
         android:textColor="@color/text_color"
         android:layout_marginTop="@dimen/dimen_5_dp"
         android:layout_marginBottom="@dimen/dimen_5_dp"
         android:textSize="@dimen/dimen_18_sp"
+        android:paddingBottom="20dp"
         android:id="@+id/task_editText"
          />
     <View
