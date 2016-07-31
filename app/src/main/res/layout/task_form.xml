@@ -2,16 +2,18 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingTop="@dimen/dimen_10_dp"
     android:paddingBottom="@dimen/dimen_10_dp"
     >
-
-
+    <include
+        layout="@layout/actionbar_laytout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:paddingLeft="@dimen/dimen_10_dp"
+    android:paddingLeft="@dimen/dimen_5_dp"
     android:paddingRight="@dimen/dimen_10_dp"
+    android:layout_marginTop="@dimen/dimen_5_dp"
     android:layout_marginBottom="@dimen/dimen_5_dp"
     android:orientation="horizontal">
     <TextView
@@ -57,7 +59,8 @@
         android:paddingRight="@dimen/dimen_10_dp"
         android:layout_marginTop="@dimen/dimen_5_dp"
         android:layout_marginBottom="@dimen/dimen_5_dp"
-        android:paddingBottom="20dp"
+        android:paddingBottom="@dimen/dimen_10_dp"
+        android:paddingTop="@dimen/dimen_10_dp"
         android:textSize="@dimen/dimen_18_sp"
         android:id="@+id/subject_editText" />
     <View
@@ -79,7 +82,8 @@
         android:layout_marginTop="@dimen/dimen_5_dp"
         android:layout_marginBottom="@dimen/dimen_5_dp"
         android:textSize="@dimen/dimen_18_sp"
-        android:paddingBottom="20dp"
+        android:paddingBottom="@dimen/dimen_10_dp"
+        android:paddingTop="@dimen/dimen_10_dp"
         android:id="@+id/task_editText"
          />
     <View
