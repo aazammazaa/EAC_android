@@ -86,7 +86,6 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:background="@android:color/transparent"
         android:gravity="center_vertical"
         android:inputType="textPostalAddress"
         android:paddingLeft="@dimen/dimen_10_dp"
@@ -124,8 +123,7 @@
         android:gravity="center"
         android:layout_gravity="center_vertical"
         android:textSize="@dimen/dimen_14_sp"
-        android:paddingLeft="@dimen/dimen_5_dp"
-        android:paddingRight="@dimen/dimen_5_dp"
+        android:padding="@dimen/dimen_5_dp"
         android:id="@+id/generate_button" />
 
 </LinearLayout>
