@@ -52,6 +52,7 @@ public class EmployeeLogin extends BaseActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.my_toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        toolbar.setTitle("Employee Registration");
 
     }
 
