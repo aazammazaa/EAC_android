@@ -23,7 +23,6 @@
         android:textColor="@color/black"
         android:layout_gravity="center"
         android:textSize="@dimen/dimen_18_sp"
-        android:layout_marginLeft="@dimen/dimen_5_dp"
         android:id="@+id/textView4" />
     <EditText
         android:layout_width="match_parent"

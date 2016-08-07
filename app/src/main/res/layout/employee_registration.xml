@@ -9,7 +9,8 @@
         android:layout_height="wrap_content" />
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
+        android:background="@android:color/transparent"
         android:inputType="textPersonName"
         android:hint="Username"
         android:gravity="center_vertical"
@@ -27,7 +28,8 @@
         />
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
+        android:background="@android:color/transparent"
         android:inputType="textPersonName"
         android:gravity="center_vertical"
         android:paddingLeft="@dimen/dimen_10_dp"
@@ -45,7 +47,8 @@
 
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
+        android:background="@android:color/transparent"
         android:inputType="textEmailAddress"
         android:gravity="center_vertical"
         android:paddingLeft="@dimen/dimen_10_dp"
@@ -63,7 +66,8 @@
 
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
+        android:background="@android:color/transparent"
         android:gravity="center_vertical"
         android:paddingLeft="@dimen/dimen_10_dp"
         android:paddingRight="@dimen/dimen_10_dp"
@@ -81,7 +85,7 @@
 
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:gravity="center_vertical"
         android:inputType="textPostalAddress"
         android:paddingLeft="@dimen/dimen_10_dp"
@@ -98,7 +102,7 @@
         />
 <LinearLayout
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="50dp"
     android:paddingLeft="@dimen/dimen_10_dp"
     android:paddingRight="@dimen/dimen_10_dp"
     android:orientation="horizontal">
@@ -116,7 +120,8 @@
         android:text="Generate Passowrd"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:gravity="center_vertical"
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
         android:textSize="@dimen/dimen_14_sp"
         android:padding="@dimen/dimen_5_dp"
         android:id="@+id/generate_button" />
