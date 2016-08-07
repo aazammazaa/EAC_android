@@ -19,7 +19,7 @@ public class Main2Activity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
         mContext = this;
-        mTaskForm = (TextView) findViewById(R.id.submit_Button);
+        mTaskForm = (TextView) findViewById(R.id.task_form);
         mTaskForm.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -28,6 +28,7 @@ public class Main2Activity extends Activity {
                 //Toast.makeText(mContext,"Work in Progress",Toast.LENGTH_LONG).show();
             }
         });
+        mEmpRegistration = (TextView) findViewById(R.id.employee_registration);
         mEmpRegistration.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
