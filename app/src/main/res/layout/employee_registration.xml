@@ -86,6 +86,7 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="50dp"
+        android:background="@android:color/transparent"
         android:gravity="center_vertical"
         android:inputType="textPostalAddress"
         android:paddingLeft="@dimen/dimen_10_dp"
