@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.tmz.ian.Main2Activity"
+    tools:context="com.aazamnawlakha.eac_android.activity.Main2Activity"
     android:weightSum="1">
 
     <LinearLayout
@@ -23,14 +23,14 @@
             />
 
         <TextView
-            android:text="TextView"
+            android:text="Employee Registration"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:padding="@dimen/dimen_10_dp"
             android:gravity="center_horizontal|center_vertical"
             android:textSize="22sp"
-            android:id="@+id/textView" />
+            android:id="@+id/employee_registration" />
 
         <View
             android:layout_width="match_parent"
@@ -41,14 +41,14 @@
             />
 
         <TextView
-            android:text="TextView"
+            android:text="Assign Task"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:padding="@dimen/dimen_10_dp"
             android:textSize="22sp"
             android:gravity="center_horizontal|center_vertical"
-            android:id="@+id/textView2" />
+            android:id="@+id/task_form" />
         <View
             android:layout_width="match_parent"
             android:layout_height="@dimen/dimen_0.5_dp"
@@ -57,21 +57,5 @@
             android:layout_marginBottom="5dp"
             />
 
-        <TextView
-            android:text="TextView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:padding="@dimen/dimen_10_dp"
-            android:textSize="22sp"
-            android:gravity="center_horizontal|center_vertical"
-            android:id="@+id/textView3" />
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/dimen_0.5_dp"
-            android:background="@color/black"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="5dp"
-            />
     </LinearLayout>
 </LinearLayout>
