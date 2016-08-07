@@ -16,6 +16,9 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".activity.TaskFormActivity"
+            android:label="@string/action_sign_in" />
+        <activity
             android:name=".activity.MainActivity"
             android:label="@string/action_sign_in" />
         <activity
