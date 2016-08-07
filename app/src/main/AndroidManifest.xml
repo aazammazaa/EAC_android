@@ -18,7 +18,7 @@
             android:label="@string/action_sign_in">
         </activity>
         <activity
-            android:name=".activity.Main2Activity"
+            android:name=".activity.LoginActivity"
             android:label="@string/app_name"
             android:windowSoftInputMode="stateHidden">
             <intent-filter>
@@ -38,9 +38,7 @@
         <activity
             android:name=".activity.DealDetailTab"
             android:label="@string/title_activity_base" />
-<!--
-        <activity android:name=".activity.Main2Activity"></activity
--->
+        <activity android:name=".activity.Main2Activity"></activity>
     </application>
 
 </manifest><!--<application android:allowBackup="true"
